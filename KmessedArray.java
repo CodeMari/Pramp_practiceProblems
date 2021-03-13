@@ -7,7 +7,7 @@ Analyze the time and space complexities of your solution.
 oseudocode below: 
 */
 
-public class KmessedArray {
+public class KmessedArray { 
     
     functionKMessedArray(arr, k): 
     n = arr.length;
