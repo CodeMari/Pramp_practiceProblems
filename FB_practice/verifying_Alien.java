@@ -20,7 +20,7 @@ public class verifying_Alien {
                 String word2 = words[i+1];
         
                 for(int k=0; k<Math.min(word1.length(), word2.length()); k++ ){
-                    if(word1.charAt(k)!= word2.charAt(i)){
+                    if(word1.charAt(k)!= word2.charAt(k)){
                         if(index[word1.charAt(k)-'a']> index[word2.charAt(k)-'a'])
                         return false; 
                         continue search; 
@@ -28,7 +28,7 @@ public class verifying_Alien {
                 }
             
             } 
-            if(words.length()> words.length()){
+            if(words1.length()> words2.length()){
                 return false;
             }
 
