@@ -15,7 +15,7 @@ public class mergeIntervals {
                 end = Math.max(end, intervals[i][1]);
             }else{
                 result.add(new int[]{start, end}); 
-                start= interval[i][0]; 
+                start= intervals[i][0]; 
                 end = intervals[i][1]; 
             }
         }

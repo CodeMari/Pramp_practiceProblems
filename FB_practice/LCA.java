@@ -20,12 +20,12 @@ class Solution{
             visited.add(p); 
             p= p.parent; 
         }
-        whhile(q!=null){
+        while(q!=null){
             if(visited.contains(q)){
                 return q;
             }
             q=q.parent; 
         }
-        return null
+        return null;
     }
 }
